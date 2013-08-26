@@ -1,0 +1,43 @@
+ /* Thursday background   */
+
+ body {
+
+   /* Flowers background   */
+   background:
+        -moz-radial-gradient(#ee1 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#ee1 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        -moz-radial-gradient(#eee 18%, transparent 18%),
+        #cef;
+    background:
+        -webkit-radial-gradient(#ee3 15%, transparent 15%),
+        -webkit-radial-gradient(#ffe 15%, transparent 15%),
+        -webkit-radial-gradient(#ffe 15%, transparent 15%),
+        -webkit-radial-gradient(#ffe 15%, transparent 15%),
+        -webkit-radial-gradient(#ffe 15%, transparent 15%),
+        -webkit-radial-gradient(#ee3 10%, transparent 10%),
+        -webkit-radial-gradient(#ffe 10%, transparent 10%),
+        -webkit-radial-gradient(#ffe 10%, transparent 10%),
+        -webkit-radial-gradient(#ffe 10%, transparent 10%),
+        -webkit-radial-gradient(#ffe 10%, transparent 10%),
+        #cef;
+    background-position:    25px 25px, 25px 50px, 25px 0px, 0px 25px, 50px 25px,
+                            125px 125px, 125px 140px, 125px 110px, 110px 125px, 140px 125px;
+    -webkit-background-size:200px 200px;
+    -moz-background-size:   200px 200px;
+    background-size:        200px 200px;
+    
+
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #622;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}

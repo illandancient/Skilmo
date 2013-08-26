@@ -1,0 +1,22 @@
+/* Skilmo CSS */
+
+body {background: white; color: #666; font-family: 'Open Sans', sans-serif; padding: 20px;}
+
+p.claim {text-align: center; color: #999; padding: 2px;}
+p.navigation {text-align: center; background: #ccc; color: #333; padding: 2px;}
+p.user-counter {font-size: smaller; color: #aaa; text-align: center;}
+p.desc {font-size: smaller; color: #999; text-align: left;}
+p.points {font-size: xx-large; color: #999; text-align: center;}
+p.skillname (font-size: larger; color: #999; text-align: left;}
+
+div#no-one {clear: both; font-size: smaller; text-align: center; margin-top: 2em;}
+
+div#container {border: 2px solid #aaa; background: #eee; padding: 20px; overflow: hidden; }
+
+div#popular{width: 45%; float: left;  background: #eee; padding: 20px;}
+
+div#esoteric{width: 45%; float: right;  background: #eee; padding: 20px;}
+
+a {color: black; text-decoration: none;}
+a:hover {color: yellow;}
+a:visited {color: #033;}

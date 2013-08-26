@@ -1,0 +1,24 @@
+ /* Wednesday background   */
+
+ body {
+
+ /* Gingham plaid background  */
+   background-image:    -webkit-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                        -webkit-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   background-image:    -moz-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                        -moz-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   background-image:     -ms-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                         -ms-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   background-image:      -o-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                          -o-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   -webkit-background-size:80px 80px;
+   -moz-background-size:80px 80px;
+   background-size:80px 80px;
+
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #622;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}

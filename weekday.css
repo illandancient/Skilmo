@@ -1,0 +1,26 @@
+ /* Weekday background   */
+
+ body {
+
+
+/* Polkadot background  */
+  background:
+    -moz-radial-gradient(#fbb 20%, transparent 20%),
+    -moz-radial-gradient(#fbb 20%, transparent 20%),
+    #cef;
+  background:
+    -webkit-radial-gradient(#fbb 20%, transparent 20%),
+    -webkit-radial-gradient(#fbb 20%, transparent 20%),
+    #cef;
+  background-position: 0 0, 80px 80px;
+  -webkit-background-size:160px 160px;
+  -moz-background-size:160px 160px;
+  background-size:160px 160px;
+
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #622;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}

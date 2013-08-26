@@ -1,0 +1,191 @@
+/* Skilmo CSS */
+
+body {
+ 
+/* Polkadot background   */
+ /*   background:
+        -moz-radial-gradient(#fbb 20%, transparent 20%),
+        -moz-radial-gradient(#fbb 20%, transparent 20%),
+        #cef;
+    background:
+        -webkit-radial-gradient(#fbb 20%, transparent 20%),
+        -webkit-radial-gradient(#fbb 20%, transparent 20%),
+        #cef;
+    background-position: 0 0, 80px 80px;
+    -webkit-background-size:160px 160px;
+    -moz-background-size:160px 160px;
+    background-size:160px 160px;
+    */
+
+ /* Gingham plaid background */
+   background-image:    -webkit-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                        -webkit-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   background-image:    -moz-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                        -moz-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   background-image:     -ms-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                         -ms-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   background-image:      -o-linear-gradient(top, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%),
+                          -o-linear-gradient(left, rgba(255,187,187,0.5) 40%, rgba(204,238,255,0.5) 45%);
+   -webkit-background-size:80px 80px;
+   -moz-background-size:80px 80px;
+   background-size:80px 80px;
+
+	width: 900px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #622;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	padding: 5px;
+}
+
+.claim {
+	text-align: center;
+	font-size: xx-large;
+  font-weight: bold;  
+	text-shadow: 0 0 10px #c88, 3px 2px 3px rgba(10, 10, 0, 0.5);
+	padding: 2px;
+}
+
+.navigation {
+	text-align: center;
+	background: #e44;
+	color: #333;
+	padding: 2px;
+	border-radius: 30px / 15px;
+}
+
+/* User counter markup - little blue stitched box in the middle of the screen */
+p.user-counter {
+	font-size: smaller;
+	color: #a22;
+  width: 20%;
+  margin-left:auto;
+  margin-right:auto;
+	text-align: center;
+  background: #cef;
+  border: dashed 2px;
+  border-radius: 15px / 10px;
+  box-shadow: 0 0 0 4px #cef, 3px 2px 7px 5px rgba(10, 10, 0, 0.5);
+}
+
+p.desc {
+	font-size: smaller;
+	color: #922;
+	text-align: left;
+}
+
+p.points {
+	font-size: xx-large;
+	color: #922;
+	text-align: center;
+}
+
+p.skillname {
+	font-size: larger;
+	color: #922;
+	text-align: left;
+}
+
+.stitched {
+   padding: 20px;
+   margin: 10px;
+   background: #f99;
+   color: #926;
+   font-weight: bold;
+   border: 2px dashed #922;
+   border-radius: 30px / 15px;
+   box-shadow: 0 0 0 5px #f99, 3px 2px 7px 5px rgba(10, 10, 0, 0.5);
+   font-weight: normal;
+}
+
+.stitchpatch {
+	width: 50%;
+	padding: 20px;
+	margin: 10px;
+	background: #bdf;
+    color: #926;
+    font-weight: bold;
+    border: 2px dashed #922;
+    border-radius: 100% 30px / 30px 100%;
+    box-shadow: 0 0 0 5px #bdf, 3px 2px 7px 5px rgba(10, 10, 0, 0.5);
+    font-weight: normal;
+    overflow: hidden;
+}
+
+fieldset {
+	border: dashed 2px #922;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    color: #926;
+}
+
+legend {
+	border: dashed 2px #922;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    color: #926;
+	font-weight: bold;
+}
+
+div#no-one {
+	clear: both;
+	font-size: smaller;
+	text-align: center;
+	margin-top: 2em;
+}
+
+div#container {
+	border: 2px solid #aaa;
+	background: #eee;
+	padding: 10px;
+	overflow: hidden;
+}
+
+div#popular{
+	width: 45%;
+	float: left; 
+	padding: 10px;
+}
+
+div#esoteric{
+	width: 45%;
+	float: right;
+	padding: 10px;
+}
+
+.skillslist {
+  font-size: 75%;
+  text-align: left;
+  text-shadow: 0 0 1px #e99;
+  box-shadow: 0 0 1px #eee;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #133;
+}
+
+a:hover {
+	color: yellow;
+}
+
+img {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 1px #eee, 2px 1px 5px 3px rgba(10, 10, 0, 0.5);
+}
+
+.alignleft {
+  float: left;
+}
+.alignright {
+  float: right;
+}

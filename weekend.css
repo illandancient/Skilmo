@@ -1,0 +1,24 @@
+ /* Weekend background   */
+
+ body {
+
+/* Morrison Tartan background */
+
+background-image: -webkit-linear-gradient(top, rgba(17,17,17,0.5) 15%, rgba(34,68,68,0.5) 15%, rgba(34,68,68,0.5) 17%,
+                                             rgba(34,34,51,0.5) 17%, rgba(34,34,51,0.5) 32%, rgba(204,17,51,0.5) 32%, rgba(204,17,51,0.5) 35%,
+                                               rgba(34,34,51,0.5) 35%, rgba(34,34,51,0.5) 50%, rgba(34,68,68,0.5) 50%, rgba(34,68,68,0.5) 52%,
+                                               rgba(17,17,17,0.5) 52%, rgba(17,17,17,0.5) 67%, rgba(34,68,68,0.5) 67%, rgba(34,68,68,0.5) 70%,
+                                               rgba(17,17,17,0.5) 70%, rgba(17,17,17,0.5) 85%, rgba(34,68,68,0.5) 85%),
+                 -webkit-linear-gradient(left, rgba(17,17,17,0.5) 15%, rgba(34,68,68,0.5) 15%, rgba(34,68,68,0.5) 17%,
+                                             rgba(34,34,51,0.5) 17%, rgba(34,34,51,0.5) 32%, rgba(204,17,51,0.5) 32%, rgba(204,17,51,0.5) 35%,
+                                               rgba(34,34,51,0.5) 35%, rgba(34,34,51,0.5) 50%, rgba(34,68,68,0.5) 50%, rgba(34,68,68,0.5) 52%,
+                                               rgba(17,17,17,0.5) 52%, rgba(17,17,17,0.5) 67%, rgba(34,68,68,0.5) 67%, rgba(34,68,68,0.5) 70%,
+                                               rgba(17,17,17,0.5) 70%, rgba(17,17,17,0.5) 85%, rgba(34,68,68,0.5) 85%);
+  
+  width: 900px;
+  margin-left:auto;
+  margin-right:auto;
+  color: #622;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+  padding: 5px;
+}
